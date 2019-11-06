@@ -1,0 +1,58 @@
+
+/* Image */
+
+	.image {
+		display: inline-block;
+		border: 0;
+
+		img {
+			display: block;
+			width: 50%;
+		}
+
+		&.avatar48 {
+		    border-radius: 50%;
+			width: 150px;
+			height: 150px;
+			background: #f00;
+
+			img {
+			    border-radius: 50%;
+				width: 150px;
+				height: 150px;
+			    margin-left: auto;
+                margin-right: auto;
+			}
+		}
+
+		&.fit {
+			display: block;
+			width: 100%;
+		}
+
+		&.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+
+		&.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		&.right {
+			float: right;
+			margin: 0 0 2em 2em;
+		}
+
+		&.centered {
+			display: block;
+			margin: 0 0 2em 0;
+
+			img {
+				margin: 0 auto;
+				width: auto;
+			}
+		}
+	}
