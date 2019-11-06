@@ -35,7 +35,7 @@ subtitle: Welcome to my online portfolio. I'm a Jr. Data Analyst, and Microbioli
 description: >- # this means to ignore newlines until "baseurl:"
 author: Juan Reyes
 email: jcreyes1738@gmail.com
-avatar: assets/images/lolla_self2.jpg
+avatar: ""
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "jcreyes2.gitbhub.io" # the subpath of your site, e.g. /blog
